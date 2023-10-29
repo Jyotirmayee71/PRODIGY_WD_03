@@ -1,0 +1,27 @@
+body{
+    background-image: url(http://www.pixelstalk.net/wp-content/uploads/2016/06/Solid-color-1920x1080-wallpapers.jpg);
+}
+h1{
+   color:rgb(39, 166, 141);
+   text-align: center;
+   padding-top: 200px;    
+}
+h1 span{
+   color: #ff3753;     
+}
+.container{
+   margin-left: 450px; 
+   padding-top: -700px;
+}
+.container .box{
+   text-align: center;
+   display: inline-block;
+   margin: 100px;
+}
+a{
+   border: 6px ;
+   box-sizing: border-box;
+   background-color: white;                        
+   border-radius: 3px 1px 3px 1px;
+   box-shadow: 5px 5px 10px black;           
+}  
