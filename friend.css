@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;    
+ }
+nav{
+    background-color: rgb(37, 9, 37);
+    color: white;
+    height: 65px;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    font-family: serif;
+}        
+.title {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10%;
+}
+h1{
+    color: #FF3860;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.display {
+    color: rgb(47, 39, 45);
+    font-size: 25px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-family:sans-serif;
+}
+.playerX {
+    color: #09C372;
+}
+
+.playerO {
+    color: #498AFB;
+}
+table {
+    border-collapse: 2px solid black;
+    position: absolute;
+    left: 50%;
+    margin-left: -155px;
+    top: 50px;
+    padding-top: 300px;
+}
+tr{
+    display: inline-block;
+}
+.cell {
+    border: 2px solid black;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+.cell:hover{
+    background-color: rgb(217, 189, 252);
+}
+.announcer{
+    padding-top:320px;
+}
+.hide {
+    display: none;
+}
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    padding-top: 300px;
+    margin-right:20px ;   
+}
+.controls button {
+    color:white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    margin-left: 1em;
+    cursor: pointer;
+    background-color: #FF3860;   
+}
